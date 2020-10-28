@@ -1,12 +1,12 @@
 {
-    "title": "Landing Page",
-    "name": "startbootstrap-landing-page",
+    "title": "Stratmapper Landing Page",
+    "name": "stratmapper-landing",
     "version": "5.0.8",
     "scripts": {
         "start": "node_modules/.bin/gulp watch",
         "build": "node_modules/.bin/gulp build"
     },
-    "description": "An HTML landing page template built with Bootstrap",
+    "description": "A landing page for the Stratmapper application.",
     "keywords": [
         "css",
         "sass",
@@ -15,25 +15,18 @@
         "theme",
         "template"
     ],
-    "homepage": "https://startbootstrap.com/themes/landing-page",
-    "bugs": {
-        "url": "https://github.com/StartBootstrap/startbootstrap-landing-page/issues",
-        "email": "feedback@startbootstrap.com"
-    },
     "license": "MIT",
-    "author": "Start Bootstrap",
-    "contributors": [
-        "David Miller (http://davidmiller.io/)"
-    ],
+    "author": "Andy Bryant",
     "repository": {
         "type": "git",
-        "url": "https://github.com/StartBootstrap/startbootstrap-landing-page.git"
+        "url": "https://github.com/andymbryant/stratmapper-landing"
     },
     "dependencies": {
         "@fortawesome/fontawesome-free": "5.13.1",
         "bootstrap": "4.5.0",
         "jquery": "3.5.1",
-        "simple-line-icons": "^2.4.1"
+        "simple-line-icons": "^2.4.1",
+        "startbootstrap-landing-page": "^5.0.8"
     },
     "devDependencies": {
         "browser-sync": "2.26.7",

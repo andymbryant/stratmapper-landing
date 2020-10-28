@@ -1,8 +1,12 @@
 /*!
- * Start Bootstrap - Landing Page v5.0.8 (https://startbootstrap.com/themes/landing-page)
- * Copyright 2013-2020 Start Bootstrap
- * Licensed under MIT (https://github.com/StartBootstrap/startbootstrap-landing-page/blob/master/LICENSE)
+ * Start Bootstrap - Stratmapper Landing Page v5.0.8 ()
+ * Copyright 2013-2020 Andy Bryant
+ * Licensed under MIT (https://github.com/StartBootstrap/stratmapper-landing/blob/master/LICENSE)
  */
+
+.bg-grey {
+  background-color: #e9ecef;
+}
 
 body {
   font-family: 'Lato', 'Helvetica Neue', Helvetica, Arial, sans-serif;
@@ -87,16 +91,30 @@ header.masthead h1 {
   font-size: 5rem;
 }
 
-.testimonials {
+.publications {
+  padding-top: 4rem;
+  padding-bottom: 4rem;
+}
+
+.publications .publication-item {
+  max-width: 18rem;
+}
+
+.publications .publication-item img {
+  max-width: 12rem;
+  box-shadow: 0px 5px 5px 0px #adb5bd;
+}
+
+.team {
   padding-top: 7rem;
   padding-bottom: 7rem;
 }
 
-.testimonials .testimonial-item {
+.team .team-item {
   max-width: 18rem;
 }
 
-.testimonials .testimonial-item img {
+.team .team-item img {
   max-width: 12rem;
   box-shadow: 0px 5px 5px 0px #adb5bd;
 }
